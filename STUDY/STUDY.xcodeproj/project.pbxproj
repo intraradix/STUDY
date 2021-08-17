@@ -13,6 +13,9 @@
 		B65C0AB726CBA68800265837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65C0AB526CBA68800265837 /* Main.storyboard */; };
 		B65C0AB926CBA68A00265837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65C0AB826CBA68A00265837 /* Assets.xcassets */; };
 		B65C0ABC26CBA68A00265837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65C0ABA26CBA68A00265837 /* LaunchScreen.storyboard */; };
+		B686478226CC3AD9008E8D13 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686478126CC3AD9008E8D13 /* SendViewController.swift */; };
+		B686478426CC3B82008E8D13 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686478326CC3B82008E8D13 /* DetailViewController.swift */; };
+		B6A1C54626CC443D00B31BDA /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1C54526CC443D00B31BDA /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B65C0AB826CBA68A00265837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B65C0ABB26CBA68A00265837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B65C0ABD26CBA68A00265837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B686478126CC3AD9008E8D13 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		B686478326CC3B82008E8D13 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B6A1C54526CC443D00B31BDA /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B620DD9D26CC375500F45C1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B65C0AB526CBA68800265837 /* Main.storyboard */,
+				B65C0AB826CBA68A00265837 /* Assets.xcassets */,
+				B65C0ABA26CBA68A00265837 /* LaunchScreen.storyboard */,
+				B65C0ABD26CBA68A00265837 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B620DD9E26CC37E700F45C1A /* Lesson-1 */ = {
+			isa = PBXGroup;
+			children = (
+				B686478126CC3AD9008E8D13 /* SendViewController.swift */,
+				B686478326CC3B82008E8D13 /* DetailViewController.swift */,
+				B6A1C54526CC443D00B31BDA /* Session.swift */,
+			);
+			path = "Lesson-1";
+			sourceTree = "<group>";
+		};
 		B65C0AA326CBA68800265837 = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +86,8 @@
 				B65C0AAF26CBA68800265837 /* AppDelegate.swift */,
 				B65C0AB126CBA68800265837 /* SceneDelegate.swift */,
 				B65C0AB326CBA68800265837 /* ViewController.swift */,
-				B65C0AB526CBA68800265837 /* Main.storyboard */,
-				B65C0AB826CBA68A00265837 /* Assets.xcassets */,
-				B65C0ABA26CBA68A00265837 /* LaunchScreen.storyboard */,
-				B65C0ABD26CBA68A00265837 /* Info.plist */,
+				B620DD9E26CC37E700F45C1A /* Lesson-1 */,
+				B620DD9D26CC375500F45C1A /* Resources */,
 			);
 			path = STUDY;
 			sourceTree = "<group>";
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B686478226CC3AD9008E8D13 /* SendViewController.swift in Sources */,
 				B65C0AB426CBA68800265837 /* ViewController.swift in Sources */,
+				B6A1C54626CC443D00B31BDA /* Session.swift in Sources */,
+				B686478426CC3B82008E8D13 /* DetailViewController.swift in Sources */,
 				B65C0AB026CBA68800265837 /* AppDelegate.swift in Sources */,
 				B65C0AB226CBA68800265837 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,7 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7M3C6CAUNW;
-				INFOPLIST_FILE = STUDY/Info.plist;
+				INFOPLIST_FILE = STUDY/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7M3C6CAUNW;
-				INFOPLIST_FILE = STUDY/Info.plist;
+				INFOPLIST_FILE = STUDY/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
