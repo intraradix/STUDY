@@ -16,6 +16,7 @@
 		B686478226CC3AD9008E8D13 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686478126CC3AD9008E8D13 /* SendViewController.swift */; };
 		B686478426CC3B82008E8D13 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686478326CC3B82008E8D13 /* DetailViewController.swift */; };
 		B6A1C54626CC443D00B31BDA /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A1C54526CC443D00B31BDA /* Session.swift */; };
+		B6CF4D1326CC541A003F92F0 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF4D1226CC541A003F92F0 /* NotificationCenterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B686478126CC3AD9008E8D13 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 		B686478326CC3B82008E8D13 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B6A1C54526CC443D00B31BDA /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		B6CF4D1226CC541A003F92F0 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B686478126CC3AD9008E8D13 /* SendViewController.swift */,
 				B686478326CC3B82008E8D13 /* DetailViewController.swift */,
 				B6A1C54526CC443D00B31BDA /* Session.swift */,
+				B6CF4D1226CC541A003F92F0 /* NotificationCenterViewController.swift */,
 			);
 			path = "Lesson-1";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B686478226CC3AD9008E8D13 /* SendViewController.swift in Sources */,
+				B6CF4D1326CC541A003F92F0 /* NotificationCenterViewController.swift in Sources */,
 				B65C0AB426CBA68800265837 /* ViewController.swift in Sources */,
 				B6A1C54626CC443D00B31BDA /* Session.swift in Sources */,
 				B686478426CC3B82008E8D13 /* DetailViewController.swift in Sources */,
